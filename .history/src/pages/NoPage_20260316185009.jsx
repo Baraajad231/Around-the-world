@@ -10,7 +10,7 @@ const NoPage = () => {
           viewBox="0 0 774 342"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="container text-gray-900 dark:text-gray-100"
+          className="text-gray-900 dark:text-gray-100"
         >
           <path
             d="M558.052 26.8485C558.052 26.8485 559.213 23.3641 565.018 22.2026C570.823 21.0412 577.789 27.4292 577.789 27.4292C577.789 27.4292 582.433 18.1375 587.077 17.5568C591.721 16.9761 596.945 21.0412 596.945 21.0412"

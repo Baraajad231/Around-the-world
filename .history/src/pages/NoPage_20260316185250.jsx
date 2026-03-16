@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const NoPage = () => {
   return (
-    <div className="flex flex-col items-center gap-30 pt-5">
+    <div className="container flex flex-col items-center gap-30 pt-5">
       <div className="flex w-full flex-1 flex-col items-center justify-between text-gray-900 dark:bg-gray-900 dark:text-gray-100">
         <svg
           width="774"

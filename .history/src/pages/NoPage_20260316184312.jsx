@@ -2,15 +2,15 @@ import { Link } from "react-router-dom";
 
 const NoPage = () => {
   return (
-    <div className="flex flex-col items-center gap-30 pt-5">
-      <div className="flex w-full flex-1 flex-col items-center justify-between text-gray-900 dark:bg-gray-900 dark:text-gray-100">
+    <div classNames=" grid gap-10">
+      <div className="flex w-full flex-col items-center justify-between text-gray-900 dark:bg-gray-900 dark:text-gray-100">
         <svg
           width="774"
           height="342"
           viewBox="0 0 774 342"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="container text-gray-900 dark:text-gray-100"
+          className="text-gray-900 dark:text-gray-100"
         >
           <path
             d="M558.052 26.8485C558.052 26.8485 559.213 23.3641 565.018 22.2026C570.823 21.0412 577.789 27.4292 577.789 27.4292C577.789 27.4292 582.433 18.1375 587.077 17.5568C591.721 16.9761 596.945 21.0412 596.945 21.0412"
@@ -129,7 +129,7 @@ const NoPage = () => {
         <p className="text-4xl font-bold">Error 404</p>
         <p className="text-2xl">Sorry for this error</p>
       </div>
-      <Link to="/" className="rounded-2xl border px-4 py-3 shadow">
+      <Link to="/" className="px-2.5 py-1 shadow">
         Go back to Home page
       </Link>
     </div>
